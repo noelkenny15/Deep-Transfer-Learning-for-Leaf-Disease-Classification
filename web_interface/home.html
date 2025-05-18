@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+{% block pagetitle %}
+Plant Disease Detection
+{% endblock pagetitle %}
+{% block body %}
+<style>
+  body{
+    overflow-x: hidden;
+  }
+  @media only screen and (max-width: 830px) {
+    .laptop{
+      display: none;
+    }
+  }
+  @media (min-width:830px) and (max-width: 1536px){
+    .mobile{
+      display: none;
+    }
+  }
+</style>
+<div class='mobile p-5'>
+  <div class="row mb-5 text-center text-white">
+    <div class="col-lg-10 mx-auto">
+      <h1 class="display-4" style="padding-top: 2%;font-weight: 400;color:red;"><b>Note✍🏻</b></h1>
+      <p class="lead" style="font-weight: 500;color: black;">Please🙏 Open This Site On Laptop/PC 💻 Screen Only</p>
+      <p class="lead" style="font-weight: 500;color: black;">Thank You 🤝</p>    
+    </div>
+</div>
+</div>
+
+<div class="row mb-5 text-center text-white laptop">
+    <div class="col-lg-10 mx-auto">
+        <h1 class="display-4" style="padding-top: 2%;font-weight: 400;color: rgb(4, 54, 4);"><b>🍁 Plant Disease
+                Detection for Crops🍁 </b></h1>
+        <p class="lead" style="font-weight: 500;color: black;"></p>
+    </div>
+</div>
+
+<center class="laptop">
+    <a href="/index">
+    <button class = "bttn-pill bttn-lg btn-success"><b style="color: black;">ENTER</b></button>
+</a>
+</center>
+
+<div class="row p-5 laptop">
+    <div class=" col">
+        <div class="p-3 bg-white shadow rounded-lg" style="width:fit-content;height: 92%;">
+          <img src="https://www.bhg.com/thmb/q8rfs1JikMcnBN8StgjLdYFwHdE=/4000x0/filters:no_upscale():strip_icc()/BHG-Cherry-Tomato-Plant-1407386653-69dc42c014cb4fc1a9788e595cf000b7.jpg" width="275" height="270">
+          <center><p class="lead" style="font-weight: 500;color: black;"></p></center>
+        </div>
+    </div>
+    <div class="col">
+        <div class="p-3 bg-white shadow rounded-lg" style="width: fit-content;height: 92%;">
+
+          <img src="https://t3.ftcdn.net/jpg/02/28/76/20/360_F_228762020_md5J7oyDKx8ydqrGyN4Pe173n9j51dQe.jpg" width="275" height="270">
+          <center><p class="lead" style="font-weight: 500;color: black;"></p></center>
+        </div>
+    </div>
+    <div class=" col">
+        <div class="p-3 bg-white shadow rounded-lg" style="width:fit-content;height: 92%;">
+
+          <img src="https://st.depositphotos.com/1592314/1399/i/450/depositphotos_13992546-Purple-red-grapes-with-green-leaves-on-the-vine.jpg" width="275" height="270">
+          <center><p class="lead" style="font-weight: 500;color: black;"></p></center>
+        </div>
+    </div>
+    <div class=" col">
+      <div class="p-3 bg-white shadow rounded-lg" style="width:fit-content;height: 92%;">
+
+        <img src="https://rukminim2.flixcart.com/image/850/1000/kvy58y80/plant-sapling/a/p/9/yes-perennial-yes-live-kashmiri-cherry-fruit-plant-for-garden-1-original-imag8qfzcnybyzcu.jpeg?q=90&crop=false" width="270" height="270">
+        <center><p class="lead" style="font-weight: 500;color: black;"></p></center>
+      </div>
+  </div>
+  <div class=" col">
+    <div class="p-3 bg-white shadow rounded-lg" style="width:fit-content;height: 92%;">
+
+      <img src="https://kadiyamrajasrinursery.com/cdn/shop/files/peach-tree_93455a1d-b096-4091-a934-ed694214ca9b_800x628.jpg?v=1689960856" width="275" height="270">
+      <center><p class="lead" style="font-weight: 500;color: black;"></p></center>
+    </div>
+</div>
+<div class=" col">
+  <div class="p-3 bg-white shadow rounded-lg" style="width: 70%;height: 92%;">
+
+    <img src="https://assets-news.housing.com/news/wp-content/uploads/2023/12/07074134/blueberry-686x400.jpg" width="275" height="270">
+    <center><p class="lead" style="font-weight: 500;color: black;"></p></center>
+  </div>
+</div>
+</div>
+
+
+{% endblock body %}
